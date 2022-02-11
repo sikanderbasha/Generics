@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MaximumNumber
+namespace MaximumString
 {
     public class MaximumCheck
     {
-        public double MaxNumberof3(double first, double second, double third)
+        public string MaxStringof3(string first, string second, string third)
         {
             if (first.CompareTo(second) > 0 && first.CompareTo(third) > 0)
             {

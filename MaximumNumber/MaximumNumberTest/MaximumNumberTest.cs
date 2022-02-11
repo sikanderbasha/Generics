@@ -1,31 +1,31 @@
-using MaximumNumber;
+using MaximumString;
 using NUnit.Framework;
 
-namespace MaximumNumberTest
+namespace MaximumStringTest
 {
     public class Tests
     {
        
         [Test]
-        public void Givendouble_AtFirstPosition_ReturnsMaximumNumber()
+        public void Givenstring_AtFirstPosition_ReturnsMaximumNumber()
         {
             MaximumCheck maximum = new MaximumCheck();
-            double max = maximum.MaxNumberof3(3.5, 2.3, 1.2);
-            Assert.AreEqual(3.5, max);
+            string max = maximum.MaxStringof3("third", "first", "second");
+            Assert.AreEqual("third", max);
         }
         [Test]
-        public void Givendouble_AtSecondPosition_ReturnsMaximumNumber()
+        public void Givenstring_AtSecondPosition_ReturnsMaximumNumber()
         {
             MaximumCheck maximum = new MaximumCheck();
-            double max = maximum.MaxNumberof3(2.3, 3.5, 1.2);
-            Assert.AreEqual(3.5, max);
+            string max = maximum.MaxStringof3("second", "first", "third");
+            Assert.AreEqual("third", max);
         }
         [Test]
-        public void Givendouble_AtThirdPosition_ReturnsMaximumNumber()
+        public void Givenstring_AtThirdPosition_ReturnsMaximumNumber()
         {
             MaximumCheck maximum = new MaximumCheck();
-            double max = maximum.MaxNumberof3(1.2, 2.3, 3.5);
-            Assert.AreEqual(3.5, max);
+            string max = maximum.MaxStringof3("first", "second", "third");
+            Assert.AreEqual("third", max);
         }
     }
 }
