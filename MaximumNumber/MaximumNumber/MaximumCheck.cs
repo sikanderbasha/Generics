@@ -10,13 +10,15 @@ namespace MaximumNumber
     {
         public int MaxNumberof3(int first, int second, int third)
         {
-            if (first.CompareTo(second) > 1 && first.CompareTo(second) > 1)
+            if (first.CompareTo(second) > 0 && first.CompareTo(third) > 0)
+            {
                 return first;
-            if (second.CompareTo(first) > 1 && second.CompareTo(first) > 1)
+            }
+            if (second.CompareTo(first) > 0 && second.CompareTo(third) > 0)
+            {
                 return second;
-            else
-                return third;
-
+            }
+            return third;
         }
     }
 }
