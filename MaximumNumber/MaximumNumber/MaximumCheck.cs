@@ -8,7 +8,7 @@ namespace MaximumNumber
 {
     public class MaximumCheck
     {
-        public int MaxNumberof3(int first, int second, int third)
+        public double MaxNumberof3(double first, double second, double third)
         {
             if (first.CompareTo(second) > 0 && first.CompareTo(third) > 0)
             {

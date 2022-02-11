@@ -7,25 +7,25 @@ namespace MaximumNumberTest
     {
        
         [Test]
-        public void GivenInteger_AtFirstPosition_ReturnsMaximumNumber()
+        public void Givendouble_AtFirstPosition_ReturnsMaximumNumber()
         {
             MaximumCheck maximum = new MaximumCheck();
-            int max = maximum.MaxNumberof3(3, 2, 1);
-            Assert.AreEqual(3, max);
+            double max = maximum.MaxNumberof3(3.5, 2.3, 1.2);
+            Assert.AreEqual(3.5, max);
         }
         [Test]
-        public void GivenInteger_AtSecondPosition_ReturnsMaximumNumber()
+        public void Givendouble_AtSecondPosition_ReturnsMaximumNumber()
         {
             MaximumCheck maximum = new MaximumCheck();
-            int max = maximum.MaxNumberof3(2, 3, 1);
-            Assert.AreEqual(3, max);
+            double max = maximum.MaxNumberof3(2.3, 3.5, 1.2);
+            Assert.AreEqual(3.5, max);
         }
         [Test]
-        public void GivenInteger_AtThirdPosition_ReturnsMaximumNumber()
+        public void Givendouble_AtThirdPosition_ReturnsMaximumNumber()
         {
             MaximumCheck maximum = new MaximumCheck();
-            int max = maximum.MaxNumberof3(1, 2, 3);
-            Assert.AreEqual(3, max);
+            double max = maximum.MaxNumberof3(1.2, 2.3, 3.5);
+            Assert.AreEqual(3.5, max);
         }
     }
 }
