@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MaximumNumber")]
+[assembly: AssemblyTitle("MaximumString")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MaximumNumber")]
+[assembly: AssemblyProduct("MaximumString")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("a44f9606-f4dc-42fc-9676-8d2872bd9389")]
+[assembly: Guid("87b135a8-ca55-430a-ab2a-11191a19eb19")]
 
 // Version information for an assembly consists of the following four values:
 //
