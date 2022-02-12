@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MaximumString\MaximumString.csproj" />
+    <ProjectReference Include="..\MaximumNumber\MaximumNumber.csproj" />
   </ItemGroup>
 
 </Project>

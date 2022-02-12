@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MaximumString
+namespace MaximumNumber
 {
-    public class MaximumCheck
+    public class MaximumCheck<T> where T : IComparable
     {
-        public string MaxStringof3(string first, string second, string third)
+        public T Maximumof3(T first, T second, T third)
         {
             if (first.CompareTo(second) > 0 && first.CompareTo(third) > 0)
             {
